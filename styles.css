@@ -2,15 +2,11 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
 
-
-
-
 body {
   line-height: 1.5;
   margin: 0 auto;
   font-family: "roboto", sans-serif;
 }
- 
 
 .nav-link {
   text-decoration: none;
@@ -72,8 +68,8 @@ body {
   text-decoration: none;
   margin-left: 600px;
 }
- 
-.buy-game-button:hover{
+
+.buy-game-button:hover {
   color: rgba(255, 6, 6, 0.82);
   text-transform: capitalize;
   transition: 0.5s ease;
@@ -101,17 +97,17 @@ h3 {
   color: white;
   padding-inline: 15px;
   font-size: 17px;
-text-decoration: none;
-margin-left: 10px;
+  text-decoration: none;
+  margin-left: 10px;
 }
 
-.buy-game-button-reccomendation:hover{
+.buy-game-button-reccomendation:hover {
   color: rgba(255, 6, 6, 0.82);
   text-transform: capitalize;
   transition: 0.5s ease;
 }
-  
-.seeallgames{
+
+.seeallgames {
   color: white;
   background-color: rgb(9, 9, 90);
   border-radius: 10px;
@@ -119,48 +115,48 @@ margin-left: 10px;
   padding-block: 3px;
   font-size: 20px;
   padding-bottom: 5px;
-margin-left: 550px;
-margin-top: 50px;
+  margin-left: 550px;
+  margin-top: 50px;
 }
 
-.seeallgames:hover{
+.seeallgames:hover {
   color: rgba(255, 6, 6, 0.82);
   text-transform: capitalize;
   transition: 0.5s ease;
 }
 
-.backgroundcolor{
+.backgroundcolor {
   background-color: rgb(9, 9, 90);
   border-radius: 10px;
   margin-bottom: 116px;
 }
 
-.backgroundcolor-2{
+.backgroundcolor-2 {
   background-color: rgb(9, 9, 90);
   border-radius: 10px;
   margin-bottom: 70px;
 }
 
-.backgroundcolor-3{
+.backgroundcolor-3 {
   background-image: url(./images/anders-drange-PmXVWelqhGs-unsplash.jpg);
- background-size: cover;
+  background-size: cover;
 }
 
-
 /*buy games*/
-h1, h2 {
+h1,
+h2 {
   font-family: "Chakra Petch", sans-serif;
   font-size: 30px;
   color: whte;
 }
 
-h3{
+h3 {
   color: white;
   padding-left: 8px;
 }
 
 .image-buy-games {
-  max-width: 150px;
+  width: 100%;
   display: flex;
 }
 
@@ -168,10 +164,14 @@ h3{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 100px;
-  padding: 50px;
-  margin-top: 100px;
+  
+  margin-top: 50px;
   background-image: url(./images/anders-drange-PmXVWelqhGs-unsplash.jpg);
   background-size: cover;
+  width: 100vw;
+  padding-bottom: 50px;
+padding-inline: 50px;
+
 }
 
 .bg-h2 {
@@ -179,18 +179,18 @@ h3{
   padding-top: 1em;
 }
 
-.backgroundcolor-4{
-  background-color:rgb(9, 9, 90);
-  margin-right: 100px;
+.backgroundcolor-4 {
+  background-color: rgb(9, 9, 90);
+
   border-radius: 10px;
-  margin-bottom: 70px;
-}
+ 
   
-.backgroundcolor-5{
-background-color:rgb(9, 9, 90);
-margin-right: 100px;
-border-radius: 10px;
-margin-bottom: 60px
+}
+
+.backgroundcolor-5 {
+  background-color: rgb(9, 9, 90);
+
+  border-radius: 10px;
 }
 
 .buy-game-button-bg {
@@ -199,16 +199,15 @@ margin-bottom: 60px
   color: white;
   padding-inline: 15px;
   font-size: 17px;
-text-decoration: none;
-margin-left: 20px;
+  text-decoration: none;
+  margin-left: 20px;
 }
 
-.buy-game-button-bg:hover{
+.buy-game-button-bg:hover {
   color: rgba(255, 6, 6, 0.82);
   text-transform: capitalize;
   transition: 0.5s ease;
 }
-
 
 /*Contact information*/
 
@@ -228,31 +227,31 @@ margin-left: 20px;
   margin-left: 5px;
 }
 
-.send-btn:hover{
+.send-btn:hover {
   color: rgba(255, 6, 6, 0.82);
   text-transform: capitalize;
   transition: 0.5s ease;
-}
-
-.reach-out {
-  margin-left: 500px;
 }
 
 .reach-out-2 {
   margin-top: 50px;
   margin-left: 40px;
   margin-bottom: 50px;
+  align-self: flex-start;
 }
 
-.contact-information{
+.contact-information {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-left: 200px;
-  padding-right: 200px;
 }
-  
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /*About Us*/
 
@@ -275,7 +274,6 @@ margin-left: 20px;
   max-width: 220px;
   padding-left: 20px;
 }
-
 
 /*buying game*/
 
@@ -300,11 +298,9 @@ margin-left: 20px;
 .submit-checkout {
   padding-left: 400px;
   padding-bottom: 100px;
- 
-  
 }
 
-.submit:hover{
+.submit:hover {
   color: rgba(255, 6, 6, 0.82);
   text-transform: capitalize;
   transition: 0.5s ease;
@@ -319,12 +315,11 @@ margin-left: 20px;
   margin-left: 30px;
 }
 
-.shop-more:hover{
+.shop-more:hover {
   color: rgba(255, 6, 6, 0.82);
   text-transform: capitalize;
   transition: 0.5s ease;
 }
-
 
 /*fill inn info*/
 
@@ -351,7 +346,7 @@ margin-left: 20px;
   font-size: large;
 }
 
-.fill-out-checkout:hover{
+.fill-out-checkout:hover {
   color: rgba(255, 6, 6, 0.82);
   text-transform: capitalize;
   transition: 0.5s ease;
@@ -371,163 +366,149 @@ margin-left: 20px;
   padding-bottom: 10px;
   font-size: 1.3em;
 }
-  
 
 /*Congratulations*/
 
-.h2-congratulations{
+.h2-congratulations {
   display: flex;
   justify-content: center;
 }
 
-.p-congratulations{
+.p-congratulations {
   display: flex;
   flex-direction: column;
- padding-left: 200px;
- padding-right: 200px;
- margin-bottom: 350px;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 350px;
 }
 
-.shop-more-congratulations{
+.shop-more-congratulations {
   text-decoration: none;
   color: white;
-  background-color:rgb(9, 9, 90);
+  background-color: rgb(9, 9, 90);
   border-radius: 10px;
   font-size: 20px;
   margin-top: 100px;
   margin-left: 400px;
 }
-  
-.shop-more-congratulations:hover{
+
+.shop-more-congratulations:hover {
   color: rgba(255, 6, 6, 0.82);
   text-transform: capitalize;
   transition: 0.5s ease;
 }
- 
-  .click-here:hover{
-    color: rgba(255, 6, 6, 0.82);
+
+.click-here:hover {
+  color: rgba(255, 6, 6, 0.82);
   text-transform: capitalize;
   transition: 0.5s ease;
-  }
+}
 
+/*gaming code*/
 
-  /*gaming code*/
-  
-  .steam-key{
-    display: flex;
-    flex-direction: column;
-    margin-left: 500px;
-  }
-   
-  .playstation-key {
-    display: flex;
-    flex-direction: column;
-   margin-left: 500px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-  
-  .gamming-code-h1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-  }
-   
-  .h2-ac{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-    margin-top: 40px;
-  }
+.steam-key {
+  display: flex;
+  flex-direction: column;
+  margin-left: 500px;
+}
 
-  
-  /*footer*/
-  
-  .footer {
-    background-color: rgb(9, 9, 90);
-  }
-  
+.playstation-key {
+  display: flex;
+  flex-direction: column;
+  margin-left: 500px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.gamming-code-h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.h2-ac {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+/*footer*/
+
+.footer {
+  background-color: rgb(9, 9, 90);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  padding: 0px 25px;
+}
+
+.footer-branding {
+  height: 75px;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-list-item {
+  padding: 0px;
+}
+
+.social-links {
+  color: white;
+  padding: 0px 25px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.footer-color h4 {
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul a li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 10px;
+  text-transform: capitalize;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: red;
+}
+
+@media only screen and (max-width: 500px) {
   .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
   }
-  
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    color: white;
-    padding: 0px 25px;
+  .image-buy-games-frontpage{ 
+    grid-template-columns: repeat(2, 1fr);
   }
-  
-  .footer-branding {
-    height: 75px;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  .footer-list-item {
-    padding: 0px;
-  }
-  
-  .social-links {
-    color: white;
-    padding: 0px 25px;
-  }
-  
-  .footer-col h4 {
-    font-size: 18px;
-    color: white;
-    text-transform: capitalize;
-    margin-bottom: 20px;
-    font-weight: 500;
-  }
-  
-  .footer-color h4 {
-   
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-  }
-  
-  .footer-col ul a li:not(:last-child) {
-    margin-bottom: 10px;
-  }
-  
-  .footer-col ul li a {
-    font-size: 10px;
-    text-transform: capitalize;
-    color: white;
-    text-decoration: none;
-    font-weight: 300;
-    transition: all 0.3s ease;
-  }
-  
-  .footer-col ul li a:hover {
-    color: red;
-  }
-
-  @media only screen and ( max-width: 500px ){
-    .container { flex-direction:row }
-    }
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
+}
