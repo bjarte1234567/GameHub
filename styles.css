@@ -41,22 +41,40 @@ body {
   align-items: center;
 }
 
+.game-of-the-month-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+
+}
+
+.game-of-the-month-heading-wrap {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.game-of-the-month-heading {
+  font-size: 55px;
+}
+
 .game-of-the-month {
-  max-width: 230px;
-  margin-top: 30px;
-  padding-left: 550px;
+  max-width: 325px;
+  width: 100%;
   color: white;
 }
 
 .game-of-the-month-frontpage {
-  padding-left: 553px;
   font-size: 1.7em;
 }
 
 .our-reccomendation {
   display: flex;
   justify-content: center;
-  margin-top: 180px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .buy-game-button {
@@ -66,7 +84,9 @@ body {
   padding-inline: 15px;
   font-size: 20px;
   text-decoration: none;
-  margin-left: 600px;
+  padding: 15px;
+  width: 245px;
+  font-size: 25px;
 }
 
 .buy-game-button:hover {
@@ -76,7 +96,8 @@ body {
 }
 
 .games-reccomended {
-  width: 130px;
+  max-width: 325px;
+  width: 100%;
   display: flex;
 }
 
@@ -84,7 +105,7 @@ body {
   display: flex;
   padding-block: 100px;
   justify-content: space-evenly;
-  padding-block-end: 250px;
+  flex-wrap: wrap;
 }
 
 h3 {
@@ -111,12 +132,10 @@ h3 {
   color: white;
   background-color: rgb(9, 9, 90);
   border-radius: 10px;
-  padding-inline: 10px;
-  padding-block: 3px;
-  font-size: 20px;
-  padding-bottom: 5px;
-  margin-left: 550px;
   margin-top: 50px;
+  padding: 15px;
+  width: 245px;
+  font-size: 25px;
 }
 
 .seeallgames:hover {
@@ -129,6 +148,7 @@ h3 {
   background-color: rgb(9, 9, 90);
   border-radius: 10px;
   margin-bottom: 116px;
+  padding: 5px;
 }
 
 .backgroundcolor-2 {
@@ -157,39 +177,32 @@ h3 {
 
 .image-buy-games {
   width: 100%;
-  display: flex;
 }
 
 .image-buy-games-frontpage {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 100px;
-  
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10%;
+
   margin-top: 50px;
   background-image: url(./images/anders-drange-PmXVWelqhGs-unsplash.jpg);
   background-size: cover;
-  width: 100vw;
-  padding-bottom: 50px;
-padding-inline: 50px;
 
+  padding-bottom: 350px;
+  padding-inline: 50px;
+  padding-top: 50px;
 }
 
 .bg-h2 {
-  padding-left: 550px;
+  display: flex;
+  justify-content: center;
   padding-top: 1em;
+  font-size: 50px;
 }
 
 .backgroundcolor-4 {
   background-color: rgb(9, 9, 90);
-
-  border-radius: 10px;
- 
-  
-}
-
-.backgroundcolor-5 {
-  background-color: rgb(9, 9, 90);
-
+  display: flex;
   border-radius: 10px;
 }
 
@@ -197,10 +210,10 @@ padding-inline: 50px;
   border-radius: 30px;
   background-color: rgb(9, 9, 90);
   color: white;
-  padding-inline: 15px;
   font-size: 17px;
   text-decoration: none;
-  margin-left: 20px;
+  padding-inline: 10px;
+  margin-left: 8px;
 }
 
 .buy-game-button-bg:hover {
@@ -296,8 +309,11 @@ padding-inline: 50px;
 }
 
 .submit-checkout {
-  padding-left: 400px;
-  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
 }
 
 .submit:hover {
@@ -339,7 +355,7 @@ padding-inline: 50px;
   color: white;
   background-color: rgb(9, 9, 90);
   border-radius: 10px;
-  margin-left: 500px;
+  
   margin-bottom: 70px;
   margin-top: 30px;
   padding: 3px 10px;
@@ -367,6 +383,11 @@ padding-inline: 50px;
   font-size: 1.3em;
 }
 
+.proceed-to-checkout{
+  display: flex;
+  justify-content: center;
+}
+
 /*Congratulations*/
 
 .h2-congratulations {
@@ -389,7 +410,7 @@ padding-inline: 50px;
   border-radius: 10px;
   font-size: 20px;
   margin-top: 100px;
-  margin-left: 400px;
+  margin-bottom: 140px;
 }
 
 .shop-more-congratulations:hover {
@@ -409,13 +430,13 @@ padding-inline: 50px;
 .steam-key {
   display: flex;
   flex-direction: column;
-  margin-left: 500px;
+  align-items: center;
 }
 
 .playstation-key {
   display: flex;
   flex-direction: column;
-  margin-left: 500px;
+  align-items: center;
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -504,11 +525,35 @@ ul {
   color: red;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 880px) {
+
+.image-buy-games-frontpage {
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+@media only screen and (max-width: 625px) {
+.image-buy-games-frontpage {
+    grid-template-columns: 1fr 1fr;
+
+}
+}
+
+@media only screen and (max-width: 512px) {
   .container {
     flex-direction: row;
   }
-  .image-buy-games-frontpage{ 
-    grid-template-columns: repeat(2, 1fr);
+  .image-buy-games-frontpage {
+    grid-template-columns: 1fr;
+    grid-gap: 1%;
+    padding-top: 25px;
+  }
+
+  .submit-checkout {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
   }
 }
