@@ -2,9 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
 
-@media only screen and ( max-width: 500px ){
-.container { flex-direction:row }
-}
+
 
 
 body {
@@ -515,7 +513,9 @@ margin-left: 20px;
     color: red;
   }
 
- 
+  @media only screen and ( max-width: 500px ){
+    .container { flex-direction:row }
+    }
 
 
 
