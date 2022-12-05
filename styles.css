@@ -18,6 +18,7 @@ body {
   justify-content: space-around;
   text-transform: capitalize;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .nav-link:hover {
@@ -78,8 +79,6 @@ body {
 }
 
 .buy-game-button {
-  border-radius: 30px;
-  background-color: rgb(9, 9, 90);
   color: white;
   padding-inline: 15px;
   font-size: 20px;
@@ -112,15 +111,6 @@ h3 {
   text-align: left;
 }
 
-.buy-game-button-reccomendation {
-  border-radius: 30px;
-  background-color: rgb(9, 9, 90);
-  color: white;
-  padding-inline: 15px;
-  font-size: 17px;
-  text-decoration: none;
-  margin-left: 10px;
-}
 
 .buy-game-button-reccomendation:hover {
   color: rgba(255, 6, 6, 0.82);
@@ -136,6 +126,9 @@ h3 {
   padding: 15px;
   width: 245px;
   font-size: 25px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
 
 .seeallgames:hover {
@@ -206,21 +199,28 @@ h3 {
   border-radius: 10px;
 }
 
-.buy-game-button-bg {
-  border-radius: 30px;
-  background-color: rgb(9, 9, 90);
-  color: white;
-  font-size: 17px;
+.buy-game-button-bg{
+  color:white;
   text-decoration: none;
   padding-inline: 10px;
   margin-left: 8px;
+  font-size: 1.7rem;
+  border-radius: 30px;
+  
+  border: 1px black solid;
 }
+
+
 
 .buy-game-button-bg:hover {
   color: rgba(255, 6, 6, 0.82);
   text-transform: capitalize;
   transition: 0.5s ease;
 }
+
+
+
+
 
 /*Contact information*/
 
@@ -290,6 +290,11 @@ h3 {
 
 /*buying game*/
 
+.h1-buying-games{
+  display: flex;
+  justify-content: center;
+}
+
 .buying-game-assassin {
   max-width: 220px;
   padding-left: 400px;
@@ -300,12 +305,28 @@ h3 {
   max-width: 200px;
 }
 
-.submit {
+
+
+.submit{
   background-color: rgb(9, 9, 90);
   color: white;
-  border-radius: 10px;
-  inline-size: 70px;
-  font-size: 1em;
+ text-decoration: none;
+ margin: 1em;
+inline-size: 70px;
+ border-radius: 20px;
+ padding: 2px;
+ padding-left: 12px;
+}
+
+.shop-more {
+  background-color: rgb(9, 9, 90);
+  color: white;
+  text-decoration: none;
+  margin: 1em;
+ inline-size: 90px;
+  border-radius: 20px;
+padding: 2px;
+padding-left: 12px;
 }
 
 .submit-checkout {
@@ -322,14 +343,7 @@ h3 {
   transition: 0.5s ease;
 }
 
-.shop-more {
-  background-color: rgb(9, 9, 90);
-  color: white;
-  border-radius: 10px;
-  inline-size: 100px;
-  font-size: 1em;
-  margin-left: 30px;
-}
+
 
 .shop-more:hover {
   color: rgba(255, 6, 6, 0.82);
@@ -386,11 +400,24 @@ h3 {
 .proceed-to-checkout{
   display: flex;
   justify-content: center;
-}
+ color:rgb(9, 9, 90);
+  margin-bottom: 40px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  }
+
+  .proceed-to-checkout:hover{
+    
+      color: rgba(255, 6, 6, 0.82);
+      text-transform: capitalize;
+      transition: 0.5s ease;
+   
+  }
 
 /*Congratulations*/
 
-.h2-congratulations {
+.h1-congratulations {
   display: flex;
   justify-content: center;
 }
@@ -411,6 +438,9 @@ h3 {
   font-size: 20px;
   margin-top: 100px;
   margin-bottom: 140px;
+  display: flex;
+  justify-content: center;
+  inline-size: 120px;
 }
 
 .shop-more-congratulations:hover {
@@ -540,7 +570,7 @@ ul {
 }
 
 @media only screen and (max-width: 512px) {
-  .container {
+.container {
     flex-direction: row;
   }
   .image-buy-games-frontpage {
