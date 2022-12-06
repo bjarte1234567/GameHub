@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
 
 body {
@@ -48,7 +46,6 @@ body {
   align-items: center;
   flex-direction: column;
   padding-top: 50px;
-
 }
 
 .game-of-the-month-heading-wrap {
@@ -85,7 +82,6 @@ body {
   text-decoration: none;
   padding: 15px;
   width: 245px;
-  font-size: 25px;
 }
 
 .buy-game-button:hover {
@@ -110,7 +106,6 @@ body {
 h3 {
   text-align: left;
 }
-
 
 .buy-game-button-reccomendation:hover {
   color: rgba(255, 6, 6, 0.82);
@@ -183,7 +178,6 @@ h3 {
 
   padding-bottom: 46rem;
   padding-inline: 50px;
-  
 }
 
 .bg-h2 {
@@ -199,28 +193,22 @@ h3 {
   border-radius: 10px;
 }
 
-.buy-game-button-bg{
-  color:white;
+.buy-game-button-bg {
+  color: white;
   text-decoration: none;
   padding-inline: 10px;
   margin-left: 8px;
   font-size: 1.3rem;
   border-radius: 30px;
-  
+
   border: 1px black solid;
 }
-
-
 
 .buy-game-button-bg:hover {
   color: rgba(255, 6, 6, 0.82);
   text-transform: capitalize;
   transition: 0.5s ease;
 }
-
-
-
-
 
 /*Contact information*/
 
@@ -290,7 +278,7 @@ h3 {
 
 /*buying game*/
 
-.h1-buying-games{
+.h1-buying-games {
   display: flex;
   justify-content: center;
 }
@@ -305,17 +293,15 @@ h3 {
   max-width: 200px;
 }
 
-
-
-.submit{
+.submit {
   background-color: rgb(9, 9, 90);
   color: white;
- text-decoration: none;
- margin: 1em;
-inline-size: 70px;
- border-radius: 20px;
- padding: 2px;
- padding-left: 12px;
+  text-decoration: none;
+  margin: 1em;
+  inline-size: 70px;
+  border-radius: 20px;
+  padding: 2px;
+  padding-left: 12px;
 }
 
 .shop-more {
@@ -323,10 +309,10 @@ inline-size: 70px;
   color: white;
   text-decoration: none;
   margin: 1em;
- inline-size: 90px;
+  inline-size: 90px;
   border-radius: 20px;
-padding: 2px;
-padding-left: 12px;
+  padding: 2px;
+  padding-left: 12px;
 }
 
 .submit-checkout {
@@ -342,8 +328,6 @@ padding-left: 12px;
   text-transform: capitalize;
   transition: 0.5s ease;
 }
-
-
 
 .shop-more:hover {
   color: rgba(255, 6, 6, 0.82);
@@ -369,7 +353,7 @@ padding-left: 12px;
   color: white;
   background-color: rgb(9, 9, 90);
   border-radius: 10px;
-  
+
   margin-bottom: 70px;
   margin-top: 30px;
   padding: 3px 10px;
@@ -397,23 +381,21 @@ padding-left: 12px;
   font-size: 1.3em;
 }
 
-.proceed-to-checkout{
+.proceed-to-checkout {
   display: flex;
   justify-content: center;
- color:rgb(9, 9, 90);
+  color: rgb(9, 9, 90);
   margin-bottom: 40px;
   text-decoration: none;
   border-radius: 20px;
   font-size: 1.5rem;
-  }
+}
 
-  .proceed-to-checkout:hover{
-    
-      color: rgba(255, 6, 6, 0.82);
-      text-transform: capitalize;
-      transition: 0.5s ease;
-   
-  }
+.proceed-to-checkout:hover {
+  color: rgba(255, 6, 6, 0.82);
+  text-transform: capitalize;
+  transition: 0.5s ease;
+}
 
 /*Congratulations*/
 
@@ -556,21 +538,20 @@ ul {
 }
 
 @media only screen and (max-width: 880px) {
+}
 
 .image-buy-games-frontpage {
-    grid-template-columns: 1fr 1fr 1fr;
-
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 @media only screen and (max-width: 625px) {
-.image-buy-games-frontpage {
+  .image-buy-games-frontpage {
     grid-template-columns: 1fr 1fr;
-
-}
+  }
 }
 
 @media only screen and (max-width: 512px) {
-.container {
+  .container {
     flex-direction: row;
   }
   .image-buy-games-frontpage {
